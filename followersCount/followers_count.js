@@ -14,3 +14,7 @@ function increaseCount(){
     displayCount();
     checkCountValue();
 }
+function reset(){
+    count = 0;
+    displayCount();
+}
